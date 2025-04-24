@@ -1,9 +1,9 @@
 name : java CI with maven
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-          distribution: 'temurin'
+
       - name : cache maven dependencies
         uses: actions/cache@v2
         with:
