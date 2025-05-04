@@ -3,10 +3,7 @@ package com.example;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Tests unitaires pour la classe LigneLivraison.
- * Style aligné sur les tests existants (Facture & LigneFacture).
- */
+
 public class LigneLivraisonTest {
 
     @Test
